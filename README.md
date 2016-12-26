@@ -1,24 +1,4 @@
 # README
+For a cleaned-up version of this project with nicer forms, Ajax calls for the `Door` model's `create` and `update` actions, and updated RSpec file structure, see https://github.com/thomas-c-voegeli/open-doors-2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+JQuery and Bootstrap are sourced in-line from views/layouts/application.html.erb. Past experience has shown this to give faster load times.
